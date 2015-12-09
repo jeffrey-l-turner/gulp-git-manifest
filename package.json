@@ -1,0 +1,46 @@
+{
+  "name": "gulp-git-manifest",
+  "version": "0.8.0",
+  "description": "A plugin for Gulp to create manifest  file with latest sha1 commit per file.",
+  "keywords": [
+    "gulpplugin",
+    "git",
+    "manifest",
+    "git sha"
+  ],
+  "homepage": "https://github.com/jeffrey-l-turner/gulp-git-manifest",
+  "bugs": "https://github.com/jeffrey-l-turner/gulp-git-manifest/issues",
+  "author": {
+    "name": "Jeff Turner",
+    "email": "jlt@cambix.net",
+    "url": "https://github.com/jeffrey-l-turner"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffrey-l-turner/gulp-git-manifest.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "through2": "*",
+    "gulp-util": "~2.2.12",
+    "which": "~1.0.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.3.4",
+    "mocha": "*",
+    "should": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=4.0.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
+
