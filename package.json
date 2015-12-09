@@ -1,6 +1,6 @@
 {
   "name": "gulp-git-manifest",
-  "version": "0.8.0",
+  "version": "0.1.0",
   "description": "A plugin for Gulp to create manifest  file with latest sha1 commit per file.",
   "keywords": [
     "gulpplugin",

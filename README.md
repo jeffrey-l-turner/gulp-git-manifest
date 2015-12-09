@@ -96,17 +96,10 @@ New path:  /Users/example/gulp-git-manifest/test/fixtures/c-eaa51c.txt
 ```
 
 ## Changelog
-1.0.0:
- * Adds support for [`gulp-rev-replace`](https://github.com/jamesknelson/gulp-rev-replace)
-
-0.2.0:
- * Adds possibility to have sha as subfolder instead of suffix
 
 0.1.0:
- * Changes to using options object instead of two parameters on input.
+ * Initial implementation
 
-0.0.4: 
- * No longer throws unjust error on streamed contents.
 
 ## License
 
