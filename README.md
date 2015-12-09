@@ -55,22 +55,17 @@ Default: 6
 
 Length of the sha to show.
 
-#### options.separator
+#### options.path
 Type: `String`  
-Default: "-"
+Default: "relative"
+
+Either full or relative
 
 Separator before the suffix.
 
-#### options.folder
-Type: `Boolean`  
-Default: "false"
-
-If the sha-substring should be as a folder instead of suffix.
-E.g.
-
-```
-New path:  /Code/gulp-git-manifest/test/fixtures/c03b75/a.txt
-```
+#### options.filename
+Type: `String`  
+Default: "manifest.json"
 
 
 ## Examples
